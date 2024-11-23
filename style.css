@@ -338,6 +338,31 @@ cursor: pointer;
 
 }
 
+@media screen and (max-width: 1080px) {
+    /* Ajustes específicos do pixel 7 */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .section_one_tittle,
+    .section_one_text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .imagem_servicos {
+        width: 90px;
+        height: auto;
+    }
+
+    .hamburguer {
+        right: 10px;
+        top: 10px;
+    }
+}
+
 @media screen and (max-width: 734px) {
     .contato-container {
         flex-direction: column;
