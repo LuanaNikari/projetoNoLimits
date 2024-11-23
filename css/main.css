@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-    background-color: #FFFFFF;
-    /* Cor de fundo da navbar */
+    background-color: #a83c3c;
     padding: 1em;
+    height: 4.3rem;
+    
 
   }
 
@@ -45,3 +52,9 @@
     display: inline-block;
     width: 100%;
   }
+.imagem_container{
+  width: 100%;
+}
+.containter {
+  width: 200%;
+}
